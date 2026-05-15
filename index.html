@@ -4,9 +4,9 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>YDOR</title>
-    
+
     <link rel="icon" type="image/svg+xml" href="logo.svg">
-    
+
     <script src="https://cdn.tailwindcss.com"></script>
     <link rel="preconnect" href="https://fonts.googleapis.com">
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
@@ -22,6 +22,8 @@
         .scroll-smooth { scroll-behavior: smooth; }
         .font-comic { font-family: 'Comic Sans MS', 'Comic Sans', cursive; }
         .grid-fit-first { width: fit-content; max-width: 68ch; }
+        summary { list-style: none; }
+        summary::-webkit-details-marker { display: none; }
     </style>
 </head>
 <body class="bg-white text-gray-800 scroll-smooth">
@@ -35,45 +37,185 @@
     </nav>
 </header>
 
-<main class="px-6 py-12 md:py-16">
-    <div class="grid-fit-first mx-auto">
-        <h1 class="text-2xl md:text-3xl font-normal text-gray-900 text-center mb-12 md:mb-16 font-comic">
-            But what if your data made sense?
-        </h1>
+<main>
+    <section class="px-6 py-16 md:py-24">
+        <div class="mx-auto max-w-3xl text-center">
+            <h1 class="text-3xl md:text-4xl font-normal text-gray-900 font-comic">
+                Automate the repetitive work
+            </h1>
 
-        <div class="grid grid-cols-1 md:grid-cols-2 gap-6 md:gap-8 text-center min-w-0">
-            <div class="md:col-span-2 border-t border-gray-200"></div>
-            <section class="min-w-0 md:col-span-2">
-                <h2 class="text-lg font-medium text-gray-900 break-words">Agentic AI</h2>
-                <p class="mt-2 text-gray-600 italic break-words">Autonomous Work. Agents don't just "chat" they execute.</p>
-            </section>
-            <div class="md:col-span-2 border-t border-gray-200"></div>
-            <section class="min-w-0">
-                <h2 class="text-base font-medium text-gray-900 break-words">Data Engineering</h2>
-                <p class="mt-1.5 text-sm text-gray-600 break-words">Data clean and secure ready to scale</p>
-            </section>
-            <section class="min-w-0">
-                <h2 class="text-base font-medium text-gray-900 break-words">Predictive Machine Learning</h2>
-                <p class="mt-1.5 text-sm text-gray-600 italic break-words">Forecast trends and identify risks before they happen.</p>
-            </section>
-            <div class="md:col-span-2 border-t border-gray-200"></div>
-            <section class="min-w-0">
-                <h2 class="text-base font-medium text-gray-900 break-words">Business Intelligence</h2>
-                <p class="mt-1.5 text-sm text-gray-600 italic break-words">Stop guessing and start measuring.</p>
-            </section>
-            <section class="min-w-0">
-                <h2 class="text-base font-medium text-gray-900 break-words">AI Workshops</h2>
-                <p class="mt-1.5 text-sm text-gray-600 italic break-words">Navigate the rapidly evolving AI landscape with confidence.</p>
-            </section>
-        </div>
+            <p class="mt-6 text-base md:text-lg text-gray-600 leading-relaxed mx-auto max-w-2xl">
+                Customized Artificial Intelligence systems for customer service, and product operations, built on your infrastructure.
+            </p>
 
-        <div class="mt-12 pt-8 border-t border-gray-200 text-center text-sm text-gray-600">
-            <a href="mailto:info@ydor.ai" class="hover:text-gray-900">kostantinoskath@gmail.com</a>
-            <span class="mx-2">·</span>
-            <a href="https://www.linkedin.com/in/konstantinos-katharakis/" target="_blank" rel="noopener noreferrer" class="hover:text-gray-900">LinkedIn</a>
+            <div class="mt-12 md:mt-14 grid grid-cols-1 md:grid-cols-2 gap-10 md:gap-12 text-left">
+                <section>
+                    <h2 class="text-lg font-comic text-gray-900">Agentic Artificial Intelligence</h2>
+                    <p class="mt-3 text-base text-gray-600 leading-relaxed">
+                        Private, GDPR-compliant AI systems that automate repetitive operational work running on your own infrastructure, with ROI you can measure in months.
+                    </p>
+                </section>
+                <section>
+                    <h2 class="text-lg font-comic text-gray-900">Make AI part of the work</h2>
+                    <p class="mt-3 text-base text-gray-600 leading-relaxed">
+                        We help your team pick the right tools, use them well, and ignore the noise.
+                    </p>
+                </section>
+            </div>
+
+            <div class="mt-14">
+                <a href="mailto:kostantinoskath@gmail.com?subject=Free%20consultation%20%E2%80%94%20YDOR"
+                   class="inline-block bg-waterdrop-blue-600 hover:bg-waterdrop-blue-700 text-white font-comic text-lg px-8 py-4 rounded-lg shadow-sm transition-colors">
+                    Book a free consultation
+                </a>
+            </div>
         </div>
-    </div>
+    </section>
+
+    <section class="px-6 py-16 md:py-20 border-t border-gray-200">
+        <div class="mx-auto max-w-4xl">
+            <h2 class="text-2xl md:text-3xl font-normal text-gray-900 text-center font-comic">
+                How we work
+            </h2>
+            <div class="mt-12 md:mt-14 grid grid-cols-1 md:grid-cols-3 gap-10 md:gap-8 text-left">
+                <div>
+                    <div class="text-sm font-comic text-waterdrop-blue-600">01</div>
+                    <h3 class="mt-2 text-lg font-comic text-gray-900">Free consultation</h3>
+                    <p class="mt-2 text-base text-gray-600 leading-relaxed">
+                        A 30-minute call. We hear what's slowing your team down and tell you honestly whether AI is the right tool for it.
+                    </p>
+                </div>
+                <div>
+                    <div class="text-sm font-comic text-waterdrop-blue-600">02</div>
+                    <h3 class="mt-2 text-lg font-comic text-gray-900">Free scoping</h3>
+                    <p class="mt-2 text-base text-gray-600 leading-relaxed">
+                        If there's a fit, we map the workflow, the data, and the realistic ROI. You get a concrete proposal. No commitment.
+                    </p>
+                </div>
+                <div>
+                    <div class="text-sm font-comic text-waterdrop-blue-600">03</div>
+                    <h3 class="mt-2 text-lg font-comic text-gray-900">Build</h3>
+                    <p class="mt-2 text-base text-gray-600 leading-relaxed">
+                        We install the system inside your infrastructure, hand over ownership, and stay on hand while your team gets comfortable with it.
+                    </p>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <section class="px-6 py-16 md:py-20 border-t border-gray-200">
+        <div class="mx-auto max-w-3xl">
+            <h2 class="text-2xl md:text-3xl font-normal text-gray-900 text-center font-comic">
+                Why this approach
+            </h2>
+            <div class="mt-12 md:mt-14 grid grid-cols-1 md:grid-cols-2 gap-8 md:gap-12 text-left">
+                <div>
+                    <h3 class="text-lg font-comic text-gray-900">Private &amp; on-prem</h3>
+                    <p class="mt-2 text-base text-gray-600 leading-relaxed">
+                        The system runs on your infrastructure. Data never leaves your environment.
+                    </p>
+                </div>
+                <div>
+                    <h3 class="text-lg font-comic text-gray-900">GDPR-compliant by design</h3>
+                    <p class="mt-2 text-base text-gray-600 leading-relaxed">
+                        No third-party model providers in the request path unless you explicitly choose them.
+                    </p>
+                </div>
+                <div>
+                    <h3 class="text-lg font-comic text-gray-900">You own the system</h3>
+                    <p class="mt-2 text-base text-gray-600 leading-relaxed">
+                        No vendor lock-in, no per-seat fees from us. When we leave, the system stays yours.
+                    </p>
+                </div>
+                <div>
+                    <h3 class="text-lg font-comic text-gray-900">Measurable in months</h3>
+                    <p class="mt-2 text-base text-gray-600 leading-relaxed">
+                        Payback measured against the hours and errors removed &mdash; not against vague &ldquo;transformation&rdquo; KPIs.
+                    </p>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <section class="px-6 py-16 md:py-20 border-t border-gray-200">
+        <div class="mx-auto max-w-2xl text-center">
+            <h2 class="text-2xl md:text-3xl font-normal text-gray-900 font-comic">
+                About YDOR
+            </h2>
+            <p class="mt-8 text-base md:text-lg text-gray-600 leading-relaxed">
+                YDOR is a Danish AI engineering practice focused on trade and distribution SMEs. We exist because off-the-shelf AI products don&rsquo;t fit the operational reality of mid-sized distributors &mdash; too generic, too dependent on sending data to third parties, too disconnected from how your team already works. We build systems that fit how you already operate.
+            </p>
+        </div>
+    </section>
+
+    <section class="px-6 py-16 md:py-20 border-t border-gray-200">
+        <div class="mx-auto max-w-2xl">
+            <h2 class="text-2xl md:text-3xl font-normal text-gray-900 text-center font-comic">
+                Frequently asked
+            </h2>
+            <div class="mt-10 md:mt-12">
+                <details class="group border-b border-gray-200 py-5">
+                    <summary class="flex justify-between items-center cursor-pointer gap-4">
+                        <span class="font-comic text-gray-900 text-base md:text-lg">Is our data safe?</span>
+                        <span class="text-gray-400 text-2xl leading-none transition-transform group-open:rotate-45">+</span>
+                    </summary>
+                    <p class="mt-3 text-base text-gray-600 leading-relaxed">
+                        Yes. The system runs inside your infrastructure. No customer or operational data is sent to third parties unless you explicitly enable it.
+                    </p>
+                </details>
+                <details class="group border-b border-gray-200 py-5">
+                    <summary class="flex justify-between items-center cursor-pointer gap-4">
+                        <span class="font-comic text-gray-900 text-base md:text-lg">How long until something is running?</span>
+                        <span class="text-gray-400 text-2xl leading-none transition-transform group-open:rotate-45">+</span>
+                    </summary>
+                    <p class="mt-3 text-base text-gray-600 leading-relaxed">
+                        The free scoping gives you a concrete timeline before any commitment. Typical first deployments land in 4&ndash;8 weeks.
+                    </p>
+                </details>
+                <details class="group border-b border-gray-200 py-5">
+                    <summary class="flex justify-between items-center cursor-pointer gap-4">
+                        <span class="font-comic text-gray-900 text-base md:text-lg">What does it cost?</span>
+                        <span class="text-gray-400 text-2xl leading-none transition-transform group-open:rotate-45">+</span>
+                    </summary>
+                    <p class="mt-3 text-base text-gray-600 leading-relaxed">
+                        The consultation and scoping are free. The build cost depends on scope and is fixed before work starts &mdash; no open-ended retainers.
+                    </p>
+                </details>
+                <details class="group border-b border-gray-200 py-5">
+                    <summary class="flex justify-between items-center cursor-pointer gap-4">
+                        <span class="font-comic text-gray-900 text-base md:text-lg">What if it doesn&rsquo;t work?</span>
+                        <span class="text-gray-400 text-2xl leading-none transition-transform group-open:rotate-45">+</span>
+                    </summary>
+                    <p class="mt-3 text-base text-gray-600 leading-relaxed">
+                        We scope before we build. If the scoping shows the ROI isn&rsquo;t there, we tell you and don&rsquo;t take the project. Better for both sides.
+                    </p>
+                </details>
+            </div>
+        </div>
+    </section>
+
+    <section class="px-6 py-16 md:py-20 border-t border-gray-200">
+        <div class="mx-auto max-w-2xl text-center">
+            <p class="text-base md:text-lg text-gray-600 leading-relaxed">
+                If any of this sounds like your situation, the consultation is free.
+            </p>
+            <div class="mt-8">
+                <a href="mailto:kostantinoskath@gmail.com?subject=Free%20consultation%20%E2%80%94%20YDOR"
+                   class="inline-block bg-waterdrop-blue-600 hover:bg-waterdrop-blue-700 text-white font-comic text-base px-7 py-3.5 rounded-lg shadow-sm transition-colors">
+                    Book a free consultation
+                </a>
+            </div>
+        </div>
+    </section>
 </main>
+
+<footer class="px-6 py-10 border-t border-gray-200">
+    <div class="mx-auto max-w-3xl text-center text-sm text-gray-600">
+        <a href="mailto:kostantinoskath@gmail.com" class="hover:text-gray-900">kostantinoskath@gmail.com</a>
+        <span class="mx-2">&middot;</span>
+        <a href="https://www.linkedin.com/in/konstantinos-katharakis/" target="_blank" rel="noopener noreferrer" class="hover:text-gray-900">LinkedIn</a>
+    </div>
+</footer>
 
 </body>
 </html>
